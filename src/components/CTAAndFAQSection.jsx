@@ -25,7 +25,7 @@ const CTAAndFAQSection = React.forwardRef(({ onSubmitRedirect }, ref) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = 'https://calendly.com/healthymindbyavik/discovery-call';
+    const url = 'https://healthymindbyavik1.zohobookings.in/#/261552000000037016';
     window.location.href = url;
   };
 
@@ -95,6 +95,17 @@ const CTAAndFAQSection = React.forwardRef(({ onSubmitRedirect }, ref) => {
                 <button type="submit" className="w-full rounded-full bg-[#C1FF72] px-6 py-3 text-[#292929] font-semibold shadow-lg shadow-[#C1FF72]/20 hover:shadow-[#C1FF72]/40 transition">
                   Continue to Booking
                 </button>
+                <div className="text-center text-xs text-white/70">
+                  or
+                  <a
+                    href="https://healthymindbyavik1.zohobookings.in/#/261552000000037016"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-1 underline decoration-[#C1FF72] underline-offset-4 hover:text-[#C1FF72]"
+                  >
+                    book directly here
+                  </a>
+                </div>
               </form>
             </div>
           </div>
